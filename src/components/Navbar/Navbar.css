@@ -1,0 +1,92 @@
+.nav__mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav__mainContainer--logo {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 130%;
+  justify-content: flex-start;
+  /* or 57px */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.nav__mainContainer--linkContainer {
+  list-style: none;
+  display: flex;
+  align-content: center;
+  flex: 1;
+}
+
+.nav__mainContainer--linkContainer li {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 175%;
+  transition: ease-in 0.5s;
+  /* identical to box height, or 28px */
+
+  letter-spacing: 0.04em;
+
+  /* FFFFFF */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 32px;
+}
+
+.nav__mainContainer--linkContainer li:hover,
+.nav__mainContainer--login a:hover {
+  color: var(--color-golden);
+}
+
+.nav__mainContainer--loginContainerBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__mainContainer--login a {
+  font-family: var(--font-alt);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  /* identical to box height, or 28px */
+
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-align: center;
+  transition: ease-in 0.5s;
+}
+
+.nav__mainContainer--login a:first-child {
+  margin-right: 50px;
+}
+
+.nav__mainContainer--login a:last-child {
+  margin-left: 50px;
+}
+
+.nav__mainContainer--loginDivider {
+  height: 57px;
+  width: 0px;
+  border: 1px solid white;
+}
