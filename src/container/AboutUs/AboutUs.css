@@ -1,0 +1,82 @@
+.aboutUs__container--box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0px 10rem;
+}
+
+.aboutUs__container {
+  display: flex;
+}
+
+.aboutUs__container--G {
+  position: absolute;
+  inset: 1;
+  margin-top: 250px;
+}
+
+.aboutUs__container--G img {
+  width: 391px;
+  height: 415px;
+  z-index: 0;
+}
+
+.aboutUs__container {
+  z-index: 2;
+  align-items: center;
+}
+
+.aboutUs__container h2 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.aboutUs__container p {
+  font-family: var(--font-alt);
+  color: var(--color-white);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.aboutUs__container button {
+  background-color: var(--color-crimson);
+  color: var(--color-black);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.aboutUs__container--knife img {
+  height: 910px;
+  margin: 2rem 3rem;
+}
+
+.aboutUs__container--AboutUs {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  text-align: right;
+  align-items: flex-end;
+}
+
+.aboutUs__container--History {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+}
