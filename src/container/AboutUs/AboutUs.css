@@ -37,7 +37,7 @@
 
 .aboutUs__container p {
   font-family: var(--font-alt);
-  color: var(--color-white);
+  color: var(--color-grey);
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;
