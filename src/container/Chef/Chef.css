@@ -1,0 +1,70 @@
+.chef__container--box {
+  display: flex;
+  padding: 4rem 6rem;
+}
+
+.chef__container--chefimagebox img {
+  flex: 1;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+.chef__container--box h2 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.chef__container--quotebox {
+  display: flex;
+  flex-direction: column;
+}
+
+.chef__container--quote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.chef__container--quote img {
+  width: 47px;
+  height: 40px;
+  margin: 0 1rem 1rem 0;
+}
+
+.chef__container--quotetext {
+  font-family: var(--font-alt);
+  color: var(--color-white);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.chef__container--name {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.chef__container--name p:first-child {
+  font-family: var(--font-base);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41.6px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-golden);
+}
+
+.chef__container--name img {
+  width: 250px;
+  margin-top: 3rem;
+}
