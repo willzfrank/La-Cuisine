@@ -1,0 +1,50 @@
+.award__container--box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+
+.award__container--box img {
+  width: 50px;
+  height: 50px;
+}
+.award__text {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  line-height: 29.9px;
+  font-size: 23px;
+  margin-left: 1rem;
+}
+
+.laurels__container {
+  width: 100%;
+}
+
+.laurels__container h2 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.laurels__container--box {
+  display: flex;
+  padding: 4rem 6rem;
+}
+
+.laurels__container--images {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  /* margin-left: 2rem; */
+}
