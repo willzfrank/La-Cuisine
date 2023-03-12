@@ -20,8 +20,8 @@ const App = () => (
       <Navbar />
       <Header />
     </div>
-    {/* <AboutUs />
-    <SpecialMenu />
+    <AboutUs />
+    {/*<SpecialMenu />
     <Chef />
     <Intro />
     <Laurels />

@@ -26,12 +26,6 @@ header p {
   line-height: 28px;
   font-size: 16px;
 }
-.header__image {
-  width: 65%;
-  margin: 50px 0px 0px 100px;
-
-  /* Inside auto layout */
-}
 
 .header__text--container {
   display: flex;
@@ -66,4 +60,66 @@ header p {
   background-color: transparent;
   color: var(--color-crimson);
   border: 1px solid var(--color-crimson);
+}
+
+@media screen and (max-width: 884px) {
+  header {
+    padding: 1rem;
+  }
+
+  .header__text--container {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  header h1 {
+    line-height: 50px;
+    font-size: 50px;
+    text-align: left;
+  }
+
+  header p {
+    margin: 0.2rem 0;
+  }
+
+  .header__button {
+    width: max-content;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 884px) {
+  header h1 {
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 90px;
+    font-size: 90px;
+  }
+
+  .header__text--container {
+    width: 100%;
+    margin-top: 0rem;
+  }
+
+  header p {
+    font-family: var(--font-alt);
+    margin: 0.5rem 0;
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: 0.07em;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 18px;
+  }
+
+  .header__button {
+    font-size: 19px;
+    width: 40%;
+    padding: 0.8rem 1.5rem;
+  }
 }
