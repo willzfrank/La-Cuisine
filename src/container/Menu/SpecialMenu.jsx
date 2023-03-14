@@ -9,8 +9,11 @@ const SpecialMenu = () => {
   return (
     <section className="specialmenu__container--box" id="menu">
       <div className="specialmenu__container--header">
-        <SubHeading title="Menu that fits you palatte" className="spoon__img" />
-        <h2>Today's Special</h2>
+        <SubHeading
+          title="Tailor-Made Drink Experience"
+          className="spoon__img"
+        />
+        <h2>Liquid Delight</h2>
       </div>
 
       <div className="specialmenu__container--body">

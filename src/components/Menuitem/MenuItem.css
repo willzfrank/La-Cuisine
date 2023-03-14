@@ -16,7 +16,7 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  font-feature-settings: "tnum" on, "lnum" on;
+  font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
   font-size: 23px;
 }
@@ -37,7 +37,7 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  font-feature-settings: "tnum" on, "lnum" on;
+  font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
   font-size: 23px;
   padding: 1rem 0.5rem;

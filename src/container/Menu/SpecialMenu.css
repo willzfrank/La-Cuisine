@@ -23,11 +23,16 @@
 
 .specialmenu__container--body {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .specialmenu__container--imagebox {
   width: 500px;
-  margin: 1rem 6rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .specialmenu__container--image {
@@ -44,4 +49,56 @@
   color: var(--color-white);
   text-align: center;
   margin-bottom: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .specialmenu__container--body {
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: scroll;
+  }
+
+  .specialmenu__container--body::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge add Firefox */
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .specialmenu__container--imagebox {
+    display: none;
+  }
+}
+
+@media (max-width: 884px) {
+  .specialmenu__container--box {
+    padding: 1rem 2rem;
+  }
+
+  .specialmenu__container--box h2 {
+    font-size: 40px;
+    line-height: 53.2px;
+  }
+
+  .specialmenu__container--header {
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+  }
+
+  .specialmenu__container--headertext {
+    font-size: 35px;
+    line-height: 48.5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 884px) {
+  .specialmenu__container--body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
