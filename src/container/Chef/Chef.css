@@ -68,3 +68,22 @@
   width: 250px;
   margin-top: 3rem;
 }
+
+@media screen and (max-width: 884px) {
+  .chef__container--box {
+    display: flex;
+    margin-top: 2rem;
+    padding: 0rem 1.5rem;
+    flex-direction: column-reverse;
+  }
+
+  .chef__container--chefimagebox img {
+    display: none;
+    margin: 0;
+  }
+
+  .chef__container--box h2 {
+    font-size: 39px;
+    width: max-content;
+  }
+}
