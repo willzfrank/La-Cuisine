@@ -1,8 +1,8 @@
-import React from "react";
-import SubHeading from "../../components/SubHeading/SubHeading";
-import { images } from "../../constants";
+import React from 'react';
+import SubHeading from '../../components/SubHeading/SubHeading';
+import { images } from '../../constants';
 
-import "./Chef.css";
+import './Chef.css';
 
 const Chef = () => (
   <section className="chef__container--box">
@@ -15,8 +15,8 @@ const Chef = () => (
     </div>
     <div>
       <div>
-        <SubHeading title="Chef's Word" />
-        <h2>What We Believe In</h2>
+        <SubHeading title="Chef's Perspective" />
+        <h2>Guiding Principles</h2>
       </div>
       <div className="chef__container--quotebox">
         <div className="chef__container--quote">
@@ -24,15 +24,17 @@ const Chef = () => (
         </div>
         <div className="chef__container--quotetextbox">
           <p className="chef__container--quotetext flex__end">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-            soluta nulla facilis.
+            At Lueur Restaurant, we believe that cooking is a labor of love. We
+            put our heart and soul into every dish, striving for nothing less
+            than magic.
           </p>
         </div>
         <p className="chef__container--quotetext">
-          quam modi, porro ipsa obcaecati,Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Voluptas necessitatibus similique quod. Nostrum
-          totam veritatis excepturi est ipsa vitae, eveniet cupiditate veniam
-          ullam ea, perferendis doloribus molestiae eos ipsum molestias.
+          While we take our food seriously, we don't take ourselves too
+          seriously. Accidents happen, but we embrace them as reminders that
+          even the smallest things can add depth and flavor. Our guiding
+          principle is simple: approach cooking with passion and an open mind,
+          always striving for perfection in the midst of imperfection.
         </p>
       </div>
       <div className="chef__container--name">
